@@ -1,12 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./KeyvisualStyle.module.css";
 import Typed from "typed.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faFacebookF,
-  faLinkedinIn,
-} from "@fortawesome/free-brands-svg-icons";
+import { Icon } from "@iconify/react";
 
 const Keyvisual = () => {
   const el = React.useRef(null);
@@ -28,16 +23,16 @@ const Keyvisual = () => {
       <div className={styles.keyvisual} id="home">
         <div className={styles.keyvisualSocial}>
           <a href="https://www.facebook.com/dinhtri.1062001/" target="_blank">
-            <FontAwesomeIcon icon={faFacebookF} />
+            <Icon icon="eva:facebook-fill" />
           </a>
           <a href="https://github.com/dinhtri123" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
+            <Icon icon="bi:github" />
           </a>
           <a
             href="https://www.linkedin.com/in/pham-dinh-tri-dev/"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} />
+            <Icon icon="ri:linkedin-fill" />
           </a>
         </div>
         <div className={styles.keyvisualContent}>
