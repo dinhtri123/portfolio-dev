@@ -37,7 +37,7 @@ const Keyvisual = () => {
         </div>
         <div className={styles.keyvisualContent}>
           <div className={styles.keyvisualPersonal}>
-            <img src="./public/img-personal.jpg" alt="" />
+            <img src="../public/img-personal.jpg" alt="" />
           </div>
           <h2 className={styles.keyvisualName}>PHẠM ĐÌNH TRÍ</h2>
           <p className={styles.keyvisualJob}>

@@ -23,7 +23,7 @@ export const dataProject = [
     title: "Portfolio",
     listTech: ["ReactJS", "CSS Module"],
     desc: "A website that provides information about me. This project is built to provide all my information, projects, and experiences",
-    hrefWebsite: "https://simple-movies-one.vercel.app/",
-    hrefSource: "https://github.com/dinhtri123/movies",
+    hrefWebsite: "https://portfolio-dev-dinhtri123.vercel.app/",
+    hrefSource: "https://github.com/dinhtri123/portfolio-dev",
   },
 ];

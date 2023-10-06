@@ -10,7 +10,7 @@ const About = () => {
       </Title>
       <div className={`${styles.aboutPersonal} mt-cs`}>
         <div className={styles.aboutImage}>
-          <img src="./public/img-personal.jpg" alt="" />
+          <img src="../public/img-personal.jpg" alt="" />
         </div>
       </div>
       <h3 className={`${styles.aboutJob} mt-cs`}>Frontend Developer</h3>
