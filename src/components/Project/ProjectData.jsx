@@ -1,6 +1,6 @@
 export const dataProject = [
   {
-    img: "./public/e-commerce.png",
+    img: "../../../public/e-commerce.png",
     subTitle: "Website",
     title: "E-Commerce",
     listTech: ["ReactJS", "Tailwind", "Firebase"],
@@ -9,7 +9,7 @@ export const dataProject = [
     hrefSource: "https://github.com/dinhtri123/e-commerce",
   },
   {
-    img: "./public/movie.png",
+    img: "../../../public/movie.png",
     subTitle: "Website",
     title: "Simple Movie",
     listTech: ["ReactJS", "Tailwind"],
@@ -18,7 +18,7 @@ export const dataProject = [
     hrefSource: "https://github.com/dinhtri123/movies",
   },
   {
-    img: "./public/portfolio.png",
+    img: "../../../public/portfolio.png",
     subTitle: "Website",
     title: "Portfolio",
     listTech: ["ReactJS", "CSS Module"],

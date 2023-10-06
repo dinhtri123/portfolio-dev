@@ -97,7 +97,8 @@ const Header = () => {
   }, []);
   // get darkmode localStorage
   useEffect(() => {
-    const getDarkModeLocalStorage = localStorage.getItem("isDarkMode");
+    const getDarkModeLocalStorage =
+      localStorage.getItem("isDarkMode") || "light";
     if (getDarkModeLocalStorage === "dark") {
       setDarkmode(getDarkModeLocalStorage);
       refDarkmode.current.classList.add("btnDark");
