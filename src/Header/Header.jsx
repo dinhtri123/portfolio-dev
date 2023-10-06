@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "./Header.module.css";
 import { Icon } from "@iconify/react";
 import useMediaQuery from "../Hooks/useMedia";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const menuItem = [
   {
@@ -175,9 +173,9 @@ const Header = () => {
               onClick={handleToggleMenu}
             >
               {!activeMenu ? (
-                <FontAwesomeIcon icon={faBars} />
+                <Icon icon="mingcute:menu-fill" />
               ) : (
-                <FontAwesomeIcon icon={faXmark} />
+                <Icon icon="ep:close-bold" />
               )}
             </div>
           )}
