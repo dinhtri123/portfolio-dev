@@ -1,0 +1,12 @@
+.footer {
+    padding: 15px;
+    background-color: var(--cl-primary);
+}
+.footerWrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fz-base);
+}

@@ -1,0 +1,90 @@
+
+.contactForm {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-md);
+}
+.contactForm input, textarea {
+    border: 2px solid var(--cl-primary);
+    border-radius: 6px;
+    padding: 5px 10px;
+    height: 40px;
+    outline: none;
+    font-size: var(--fz-base);
+}
+.contactForm input::placeholder, .contactForm textarea::placeholder {
+    color: var(--cl-black);
+}
+.contactForm textarea {
+    height: 150px;
+}
+.btnSubmit {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--gap);
+}
+.btnSubmit button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: var(--cl-primary);
+    color: var(--cl-white);
+    cursor: pointer;
+    font-size: var(--fz-normal);
+}
+.popupSuccess {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    color: var(--cl-black)
+}
+.popupSuccessContent {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--cl-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.popupSuccessContent h3 {
+    color: var(--cl-primary);
+    font-size: var(--fz-large);
+    font-weight: 600;
+    margin-bottom: var(--gap-sm);
+}
+.popupSuccessContent p {
+    text-align: center;
+    margin-bottom: var(--gap-sm);
+}
+.popupSuccessContent button {
+    padding: 10px 20px;
+    background-color: var(--cl-primary);
+    color: var(--cl-white);
+    border-radius: 6px;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .contactFormMessage {
+        grid-column: 1/ span 2;
+    }
+    .btnSubmit {
+        grid-column: 1/ span 2;
+    }
+}
+@media screen and (max-width: 767px) {
+    .contactForm {
+        grid-template-columns: 1fr;
+    }
+}

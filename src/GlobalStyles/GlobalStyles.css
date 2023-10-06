@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary:'Itim', cursive;
+    --cl-white: #fff;
+    --cl-black: #000;
+    --cl-primary: #FFB800;
+    --cl-gray: #696969;
+    --cl-dark: #092e40;
+    --cl-bg-input-white: rgba(0, 0, 0, 0.06);
+    --cl-bg-input-dark: rgba(255, 255, 255, 0.25);
+    --fz-small: 12px;
+    --fz-base: 14px;
+    --fz-normal: 16px;
+    --fz-large: 20px;
+    --fz-large-x: 24px;
+    --fz-xl: 36px;
+    --gap: 20px;
+    --gap-md: 15px;
+    --gap-sm: 10px;
+    --gap-xl: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-primary);
+}
+
+body {
+    font-size: var(--fz-normal);
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--cl-white);
+    color: var(--cl-black);
+    transition: all 0.3s linear;
+}
+
+body.dark{
+    background-color: var(--cl-dark);
+    color: var(--cl-white);
+}
+body.dark .project-subtitle::before {
+    background-color: var(--cl-white);
+}
+body.dark .hrefSourceDark {
+    color: var(--cl-white)
+}
+input, button{
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+}
+.mt-cs {
+    margin-top: 40px;
+}
+.container {
+    max-width: 1070px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.btnTop {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    background-color: var(--cl-primary);
+    border: 2px solid var(--cl-primary);
+    color: var(--cl-white);
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100px);
+    transition: all 0.4s ease;
+}
+.btnTop.active {
+    transform: translateX(0px);
+}
+.main-content {
+    padding-bottom: 80px;
+    scroll-margin-top: 100px;
+}
+.t-center {
+    text-align: center;
+}
+.btnDark {
+    background-color: var(--cl-dark) !important;
+}
+.btnDark span {
+    transform: translate(35px, -50%);
+    background-color: #25afee;
+}
+
+@media screen and (max-width: 1023px) {
+    :root {
+        --fz-small: 10px;
+    --fz-base: 12px;
+    --fz-normal: 14px;
+    --fz-large: 18px;
+    --fz-large-x: 22px;
+    --fz-xl: 32px;
+    --gap-xl: 25px;
+    --gap: 15px;
+    --gap-md: 10px;
+    --gap-sm: 5px;
+    }
+    .btnDark span {
+        transform: translate(30px, -50%);
+    } 
+    .mt-cs {
+        margin-top: 30px;
+    } 
+    .main-content {
+        padding-bottom: 50px;
+        scroll-margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+    --fz-large-x: 20px;
+    --fz-xl: 28px;
+    --gap-xl: 20px;
+    }
+    
+}

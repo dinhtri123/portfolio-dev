@@ -1,0 +1,7 @@
+.title {
+    font-size: var(--fz-xl);
+    text-align: center;
+}
+.title span {
+    color: var(--cl-primary);
+}

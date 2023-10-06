@@ -1,0 +1,101 @@
+.expTimeline {
+    position: relative;
+}
+.expTimeline:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 2px;
+    background-color: var(--cl-primary);
+}
+.expTimelineContent {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.expTimelineWrapper {
+    position: relative;
+}
+.expTimelineItem {
+    width: 95%;
+    position: relative;
+    margin-top: 15px;
+    border: 2px solid var(--cl-primary);
+    border-radius: 6px;
+    padding: 20px;
+}
+.circleTime {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--cl-white);
+    border: 2px solid var(--cl-primary);
+    z-index: 10;
+}
+
+.circleTime::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: var(--cl-primary);
+    border-radius: 50%;
+}
+
+.expCompany {
+    color: var(--cl-primary);
+    text-transform: uppercase;
+}
+.expTimelineItem h4 {
+    font-weight: 500;
+}
+.expTimelineItem ul li, .expTimelineItem p {
+    font-size: var(--fz-base)
+}
+@media screen and (min-width: 768px) {
+    .expTimelineContent:first-child {
+        margin-top: 0px;
+    }
+    .expTimelineContent:nth-child(2n + 1) {
+        justify-content: flex-start;
+    }
+    .expTimelineWrapper {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .expTimelineContent:nth-child(2n + 1) .expTimelineWrapper {
+        justify-content: flex-start;
+    }
+    .expTimelineContent:nth-child(2n + 1) .circleTime {
+        left: auto;
+        right: 0;
+        transform: translateX(50%);
+    }
+}
+@media screen and (max-width: 767px) {
+    .expTimeline:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 2px;
+        background-color: var(--cl-primary);
+    }
+    .expTimelineWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

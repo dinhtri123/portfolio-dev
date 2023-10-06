@@ -1,0 +1,96 @@
+.keyvisual {
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 200px 15px;
+    position: relative;
+}
+.keyvisualContent {
+    text-align: center;
+}
+.keyvisualSocial, .keyvisualJobSmall{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.keyvisualSocial {
+    left: 15px;
+    right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+.keyvisualSocial a {
+    transition: all 0.3s ease;
+}
+.keyvisualSocial a:hover {
+    color: var(--cl-primary);
+}
+.keyvisualSocial span {
+    cursor: pointer;
+}
+.keyvisualJobSmall {
+    right: 15px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translateY(50%);
+    font-size: var(--fz-small);
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+.keyvisualJobsName {
+    color: var(--cl-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.keyvisualPersonal {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px auto 20px;
+}
+.keyvisualName {
+    color: var(--cl-primary);
+    font-family: var(--font-secondary);
+    margin-bottom: var(--gap-sm);
+    font-size: var(--fz-large);
+}
+.keyvisualJob {
+    font-size: var(--fz-large);
+    margin-bottom: var(--gap-sm);
+}
+.keyvisualJob span {
+    color: var(--cl-primary);
+    
+}
+.downloadCV {
+    padding: 10px 20px;
+    background-color: var(--cl-primary);
+    border-radius: 6px;
+    margin: auto 0px;
+    display: inline-block;
+    color: var(--cl-white);
+}
+
+@media screen and (max-width: 1024px) {
+    .keyvisual {
+        padding: 150px 0px;
+    }
+    .keyvisualPersonal {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .keyvisual {
+        padding: 130px 0px;
+    }
+    .keyvisualPersonal {
+        width: 200px;
+        height: 200px;
+    }
+    .keyvisualJob {
+        font-size: var(--fz-normal);
+    }
+}
