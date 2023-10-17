@@ -7,7 +7,7 @@ const Keyvisual = () => {
   const el = React.useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Frontend Developer", "Wordpress Developer", "UI/UX Designer"],
+      strings: ["Frontend Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,

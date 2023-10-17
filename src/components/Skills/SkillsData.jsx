@@ -48,10 +48,10 @@ export const mySkillsLibrary = [
     skill: <Icon icon="devicon:redux" />,
     name: "Redux",
   },
-  {
-    skill: <Icon icon="devicon:nextjs" />,
-    name: "NextJS",
-  },
+  // {
+  //   skill: <Icon icon="devicon:nextjs" />,
+  //   name: "NextJS",
+  // },
 ];
 
 export const mySkillsVersion = [
