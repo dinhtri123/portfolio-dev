@@ -22,7 +22,7 @@ export const dataExperience = [
   {
     name: "IBCO Tech",
     position: "Frontend Developer",
-    time: "6/2023 - Present",
+    time: "6/2023 - 10/2023",
     titleRespon: "Main responsibilities",
     listRespon: [
       { item: "Doing projects in e-commerce (HTML/CSS/Javascript)" },
