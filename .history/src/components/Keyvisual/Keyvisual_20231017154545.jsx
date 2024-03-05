@@ -48,8 +48,8 @@ const Keyvisual = () => {
           </p>
           <a
             className={styles.downloadCV}
-            href="/FE_DEV_PhamDinhTri.pdf"
-            download={"FE_DEV_PhamDinhTri.pdf"}
+            href="/Frontend Developer - Phạm Đình Trí.pdf"
+            download={"Frontend Developer - Phạm Đình Trí.pdf"}
           >
             Download CV
           </a>
