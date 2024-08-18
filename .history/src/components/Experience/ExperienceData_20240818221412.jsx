@@ -49,6 +49,7 @@ export const dataExperience = [
     listRespon: [
       {
         item: ` Making e-commecer websites on wordpress
+        
       + HTML/ CSS / JS / PHP
       + UI/UX Designer`,
       },

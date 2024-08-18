@@ -7,7 +7,7 @@ const Keyvisual = () => {
   const el = React.useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Frontend Developer", "Wordpress Developer"],
+      strings: ["Frontend Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -45,11 +45,14 @@ const Keyvisual = () => {
             <span ref={el} className={styles.keyvisualJobsName}>
               Frontend Developer
             </span>
+            <span ref={el} className={styles.keyvisualJobsName}>
+              Wordpress Developer
+            </span>
           </p>
           <a
             className={styles.downloadCV}
-            href="/DevFE_PhamDinhTri.pdf"
-            download={"DevFE_PhamDinhTri.pdf"}
+            href="/FE_DEV_PhamDinhTri.pdf"
+            download={"FE_DEV_PhamDinhTri.pdf"}
           >
             Download CV
           </a>

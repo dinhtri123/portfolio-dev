@@ -48,7 +48,7 @@ export const dataExperience = [
     titleRespon: "Main responsibilities",
     listRespon: [
       {
-        item: ` Making e-commecer websites on wordpress
+        item: `• Making e-commecer websites on wordpress
       + HTML/ CSS / JS / PHP
       + UI/UX Designer`,
       },
@@ -59,13 +59,10 @@ export const dataExperience = [
     titleGained: "Achievements and skills gained",
     listGained: [
       {
-        item: "Teamwork skills",
+        item: "Ability to work in a team",
       },
       {
         item: "UI/UX Design",
-      },
-      {
-        item: "Receive information and handle problems",
       },
     ],
   },

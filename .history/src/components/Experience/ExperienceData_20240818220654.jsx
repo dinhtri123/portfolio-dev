@@ -23,7 +23,7 @@ export const dataExperience = [
   {
     name: "Freelancer",
     position: "Frontend - Wordpress",
-    time: "10/2013 - Present",
+    time: "10/2013",
     titleRespon: "Main responsibilities",
     listRespon: [
       { item: "Making e-commecer websites on wordpress and frontend" },
@@ -37,35 +37,7 @@ export const dataExperience = [
         item: "Work directly with customers",
       },
       {
-        item: "ReSearch, handle customer issues",
-      },
-    ],
-  },
-  {
-    name: "Wordpress Developer",
-    position: "Wordpress Developer",
-    time: "4/2013 - Present",
-    titleRespon: "Main responsibilities",
-    listRespon: [
-      {
-        item: ` Making e-commecer websites on wordpress
-      + HTML/ CSS / JS / PHP
-      + UI/UX Designer`,
-      },
-      {
-        item: "Some outstanding projects: ecompay.io, lopenix.com, femiha.com, ...",
-      },
-    ],
-    titleGained: "Achievements and skills gained",
-    listGained: [
-      {
-        item: "Teamwork skills",
-      },
-      {
-        item: "UI/UX Design",
-      },
-      {
-        item: "Receive information and handle problems",
+        item: "Working with Backend (C)",
       },
     ],
   },

@@ -19,12 +19,12 @@ const About = () => {
       </div>
       <h3 className={`${styles.aboutJob} mt-cs`}>Frontend Developer</h3>
       <p className={styles.aboutDetail}>
-        Hello everyone! I am Pham Dinh Tri, {age} years old, currently living and
-        working in Da Nang. I am a Frontend developer with 1 year of experience
-        including Frontend, Wordpress and Freelancer. Graduated in 2022 with a
-        major in Information Technology from Da Nang College of Economics and
-        Planning (CEP). Always researching and learning new technologies, always
-        trying to develop my abilities to conquer new challenges.
+        Good day, everyone! I'm Pham Dinh Tri, I'm {age} years old and
+        currently living and working in Da Nang. I am a Frontend developer with
+        over 8 months of experience. Graduated in 2022 with a major in
+        Information Technology at Danang College Of Economics – Planning (CEP).
+        Always exploring, learning new technologies, always trying to promote
+        your abilities to conquer new challenges.
       </p>
     </div>
   );

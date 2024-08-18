@@ -47,25 +47,21 @@ export const dataExperience = [
     time: "4/2013 - Present",
     titleRespon: "Main responsibilities",
     listRespon: [
-      {
-        item: ` Making e-commecer websites on wordpress
+      { item: `• Making e-commecer websites on wordpress
       + HTML/ CSS / JS / PHP
-      + UI/UX Designer`,
+      + UI/UX Designer`
       },
       {
-        item: "Some outstanding projects: ecompay.io, lopenix.com, femiha.com, ...",
+        item: "Convert figma to html/css/js",
       },
     ],
     titleGained: "Achievements and skills gained",
     listGained: [
       {
-        item: "Teamwork skills",
+        item: "Work directly with customers",
       },
       {
-        item: "UI/UX Design",
-      },
-      {
-        item: "Receive information and handle problems",
+        item: "ReSearch, handle customer issues",
       },
     ],
   },

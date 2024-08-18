@@ -42,14 +42,17 @@ const Keyvisual = () => {
           <h2 className={styles.keyvisualName}>PHẠM ĐÌNH TRÍ</h2>
           <p className={styles.keyvisualJob}>
             I am a{" "}
-            <span ref={el} className={styles.keyvisualJobsName}>
+            {/* <span ref={el} className={styles.keyvisualJobsName}>
               Frontend Developer
             </span>
+            <span ref={el} className={styles.keyvisualJobsName}>
+              Wordpress Developer
+            </span> */}
           </p>
           <a
             className={styles.downloadCV}
-            href="/FE_DEV_PhamDinhTri.pdf"
-            download={"FE_DEV_PhamDinhTri.pdf"}
+            href="/DevFE_PhamDinhTri.pdf"
+            download={"DevFE_PhamDinhTri.pdf"}
           >
             Download CV
           </a>

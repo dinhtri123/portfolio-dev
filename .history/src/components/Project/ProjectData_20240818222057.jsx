@@ -2,11 +2,11 @@ export const dataProject = [
   {
     img: "/pro1.png",
     subTitle: "Website",
-    title: "Technology(In progress)",
-    listTech: ["ReactJS", "Spring boot"],
-    desc: "A website that provides products such as laptops, headphones,... Includes review, search, order, admin functions,...",
-    hrefWebsite: "https://technology-henna.vercel.app/",
-    hrefSource: "https://github.com/dinhtri123/Technology",
+    title: "Technology",
+    listTech: ["ReactJS", "Tailwind", "Firebase"],
+    desc: "An e-commerce website that offers versatile items. This project is built with features such as login/register, add products,... in addition to allowing users to place orders and save data to Firebase",
+    hrefWebsite: "https://e-commerce-dinhtri123.vercel.app/",
+    hrefSource: "https://github.com/dinhtri123/e-commerce",
   },
   {
     img: "/movie.png",

@@ -7,7 +7,7 @@ const Keyvisual = () => {
   const el = React.useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Frontend Developer"],
+      strings: ["Frontend Developer", "Wordpress Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -48,8 +48,8 @@ const Keyvisual = () => {
           </p>
           <a
             className={styles.downloadCV}
-            href="/Frontend Developer - Phạm Đình Trí.pdf"
-            download={"Frontend Developer - Phạm Đình Trí.pdf"}
+            href="/DevFE_PhamDinhTri.pdf"
+            download={"DevFE_PhamDinhTri.pdf"}
           >
             Download CV
           </a>

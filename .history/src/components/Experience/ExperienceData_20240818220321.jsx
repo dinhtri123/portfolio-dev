@@ -1,12 +1,13 @@
 export const dataExperience = [
   {
-    name: "Fastcoding VN",
+    name: "IBCO Tech",
     position: "Frontend Developer",
-    time: "2/2023 - 06/2023",
+    time: "4/2023 - 10/2023",
     titleRespon: "Main responsibilities",
     listRespon: [
+      { item: "Doing projects in e-commerce (HTML/CSS/Javascript)" },
       {
-        item: "Convert design files (pts, ai, xd, figma) to HTML(PUG) - CSS - Javascript(Vanilla JS)",
+        item: "Working directly with customer",
       },
     ],
     titleGained: "Achievements and skills gained",
@@ -15,17 +16,17 @@ export const dataExperience = [
         item: "Team work",
       },
       {
-        item: "Working with different languages (pug/sass/tailwinds/....)",
+        item: "Working with Backend (C)",
       },
     ],
   },
   {
-    name: "IBCO Tech",
-    position: "Frontend Developer",
-    time: "6/2023 - 10/2023",
+    name: "Freelancer",
+    position: "Frontend - Wordpress",
+    time: "10/2013",
     titleRespon: "Main responsibilities",
     listRespon: [
-      { item: "Doing projects in e-commerce (HTML/CSS/Javascript)" },
+      { item: "• Making e-commecer websites on wordpress and frontend" },
       {
         item: "Working directly with customer",
       },

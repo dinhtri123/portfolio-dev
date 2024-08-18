@@ -7,7 +7,7 @@ const Keyvisual = () => {
   const el = React.useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Frontend Developer", "Wordpress Developer"],
+      strings: ["Frontend Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -42,8 +42,11 @@ const Keyvisual = () => {
           <h2 className={styles.keyvisualName}>PHẠM ĐÌNH TRÍ</h2>
           <p className={styles.keyvisualJob}>
             I am a{" "}
-            <span ref={el} className={styles.keyvisualJobsName}>
+            {/* <span ref={el} className={styles.keyvisualJobsName}>
               Frontend Developer
+            </span> */}
+            <span ref={el} className={styles.keyvisualJobsName}>
+              Wordpress Developer
             </span>
           </p>
           <a

@@ -2,7 +2,7 @@ export const dataProject = [
   {
     img: "/pro1.png",
     subTitle: "Website",
-    title: "Technology(In progress)",
+    title: "Technology",
     listTech: ["ReactJS", "Spring boot"],
     desc: "A website that provides products such as laptops, headphones,... Includes review, search, order, admin functions,...",
     hrefWebsite: "https://technology-henna.vercel.app/",

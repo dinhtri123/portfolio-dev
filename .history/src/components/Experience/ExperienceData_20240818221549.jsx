@@ -48,7 +48,7 @@ export const dataExperience = [
     titleRespon: "Main responsibilities",
     listRespon: [
       {
-        item: ` Making e-commecer websites on wordpress
+        item: ` Making e-commecer websites on wordpress <br/>
       + HTML/ CSS / JS / PHP
       + UI/UX Designer`,
       },

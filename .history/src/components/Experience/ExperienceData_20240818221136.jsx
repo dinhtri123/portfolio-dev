@@ -48,7 +48,7 @@ export const dataExperience = [
     titleRespon: "Main responsibilities",
     listRespon: [
       {
-        item: ` Making e-commecer websites on wordpress
+        item: `• Making e-commecer websites on wordpress
       + HTML/ CSS / JS / PHP
       + UI/UX Designer`,
       },
@@ -63,9 +63,6 @@ export const dataExperience = [
       },
       {
         item: "UI/UX Design",
-      },
-      {
-        item: "Receive information and handle problems",
       },
     ],
   },
