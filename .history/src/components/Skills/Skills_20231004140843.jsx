@@ -8,7 +8,6 @@ import {
   mySkillsVersion,
   mySkillsDesgin,
   mySkillsCMS,
-  mySkillsDatabase,
 } from "./SkillsData";
 
 const Skills = () => {
@@ -29,10 +28,6 @@ const Skills = () => {
         ></SKillsItem>
         <SKillsItem
           mySkills={mySkillsVersion}
-          title={"Version Control"}
-        ></SKillsItem>
-        <SKillsItem
-          mySkills={mySkillsDatabase}
           title={"Version Control"}
         ></SKillsItem>
         <SKillsItem mySkills={mySkillsDesgin} title={"Design"}></SKillsItem>

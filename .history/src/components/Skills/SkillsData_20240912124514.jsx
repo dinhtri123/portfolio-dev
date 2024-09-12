@@ -52,7 +52,10 @@ export const mySkillsLibrary = [
     skill: <Icon icon="devicon:redux" />,
     name: "Redux",
   },
-
+  // {
+  //   skill: <Icon icon="devicon:nextjs" />,
+  //   name: "NextJS",
+  // },
 ];
 
 export const mySkillsVersion = [
@@ -63,20 +66,6 @@ export const mySkillsVersion = [
   {
     skill: <Icon icon="vscode-icons:file-type-bitbucketpipeline" />,
     name: "Bitbucket",
-  },
-  {
-    skill: <Icon icon="devicon:webpack" />,
-    name: "Webpack",
-  },
-];
-export const mySkillsDatabase = [
-  {
-    skill: <Icon icon="devicon-plain:microsoftsqlserver-wordmark" />,
-    name: "SQL Server",
-  },
-  {
-    skill: <Icon icon="logos:mysql" />,
-    name: "mySql",
   },
 ];
 

@@ -69,16 +69,6 @@ export const mySkillsVersion = [
     name: "Webpack",
   },
 ];
-export const mySkillsDatabase = [
-  {
-    skill: <Icon icon="devicon-plain:microsoftsqlserver-wordmark" />,
-    name: "SQL Server",
-  },
-  {
-    skill: <Icon icon="logos:mysql" />,
-    name: "mySql",
-  },
-];
 
 export const mySkillsDesgin = [
   {

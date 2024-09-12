@@ -78,6 +78,10 @@ export const mySkillsDatabase = [
     skill: <Icon icon="logos:mysql" />,
     name: "mySql",
   },
+  {
+    skill: <Icon icon="devicon:webpack" />,
+    name: "Webpack",
+  },
 ];
 
 export const mySkillsDesgin = [
